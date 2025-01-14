@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: skyblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.title {
+    text-wrap: nowrap;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+input{
+    display: block;
+    margin: 1rem auto;
+    width: 50%;
+    height: 4rem;
+    font-size: 2rem;
+}
+
+button {
+    border: 0;
+    width: 70%;
+    font-size: 2rem;
+    height: 5rem;
+    border: 0.2rem solid cornflowerblue;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+
+@media (min-width: 768px) {
+    input{
+        display: block;
+        margin: 1rem auto;
+        width: 30%;
+        height: 4rem;
+        font-size: 2rem;
+    }
+
+    button {
+        width: 20rem;
+    }
+}
+
+.advice {
+    margin: 0 auto;
+}
